@@ -8,5 +8,4 @@ Docker Image of CentOS server for development.
 ```
 
 ## Repository
-https://hub.docker.com/repository/docker/rtakasuke/centos-dev/general
-
+https://hub.docker.com/r/rtakasuke/centos-dev
