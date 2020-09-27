@@ -8,4 +8,4 @@ Docker Image of CentOS for development.
 ```
 
 ## Repository
-https://hub.docker.com/r/rtakasuke/centos-dev
+[![dockeri.co](https://dockeri.co/image/rtakasuke/centos-dev)](https://hub.docker.com/r/rtakasuke/centos-dev)
