@@ -1,5 +1,5 @@
 # docker-centos-dev
-Docker Image of CentOS server for development.
+Docker Image of CentOS for development.
 
 ## Usage
 ```
