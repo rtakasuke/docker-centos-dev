@@ -14,12 +14,13 @@ RUN rpm --import https://download.copr.fedorainfracloud.org/results/dperson/neov
 
 # install yum packages
 RUN yum update -y && yum clean all
-RUN yum install -y epel-release
+RUN yum install -y epel-release && yum clean all
 RUN yum install -y zsh sudo zlib zlib-devel make gcc gcc-c++ \
                    bzip2 bzip2-devel readline readline-devel sqlite sqlite-devel openssl openssl-devel libffi-devel \
-                   unzip wget git tig curl tree zsh python36 python36-libs python36-devel python36-pip
+                   unzip wget git tig curl tree zsh python36 python36-libs python36-devel python36-pip \
+                   && yum clean all
 RUN curl -o /etc/yum.repos.d/dperson-neovim-epel-7.repo https://copr.fedorainfracloud.org/coprs/dperson/neovim/repo/epel-7/dperson-neovim-epel-7.repo
-RUN yum install -y neovim
+RUN yum install -y neovim && yum clean all
 
 # install pyenv
 RUN curl https://bootstrap.pypa.io/get-pip.py | python3
