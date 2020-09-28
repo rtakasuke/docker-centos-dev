@@ -1,5 +1,5 @@
 # docker-centos-dev
-Docker Image of CentOS server for development.
+Docker Image of CentOS for development.
 
 ## Usage
 ```
@@ -8,5 +8,4 @@ Docker Image of CentOS server for development.
 ```
 
 ## Repository
-https://hub.docker.com/repository/docker/rtakasuke/centos-dev/general
-
+[![dockeri.co](https://dockeri.co/image/rtakasuke/centos-dev)](https://hub.docker.com/r/rtakasuke/centos-dev)
