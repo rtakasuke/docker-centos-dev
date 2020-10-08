@@ -1,3 +1,5 @@
+![Lint](https://github.com/rtakasuke/docker-centos-dev/workflows/Lint/badge.svg)
+
 # docker-centos-dev
 Docker Image of CentOS for development.
 
